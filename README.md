@@ -24,15 +24,30 @@ This Learn Django repository is created to keep track of my weekly learning summ
 
 - pip install django 
 - django-admin startproject djapp = [This will create a djapp directory in your current directory](https://docs.djangoproject.com/en/4.1/intro/tutorial01/).
-
+- 
 </details>
 
 ---
 
 <details>
-  <summary> 5 March 23 :  </summary>
+  <summary> Week 2 - 5 March 23 :  </summary>
 
-```
+- how to ignore venv with subdirectories in git, https://stackoverflow.com/questions/42306410/gitignore-syntax-how-to-exclude-virtualenv-sub-directories#:~:text=gitignore%20folder%20just%20add%20the,a%20slash%20at%20the%20end.&text=This%20will%20ignore%20all%20sub%20directories%20in%20the%20venv%20folder.
 
-```
+- call manage.py `python manage.py specifyTask`
+    - python manage.py startapp AppFeatures1
+- asynchronous gateway asgi,wsgi.py - used for production purposes 
+- settings.py
+- urls.py
+- Design pattern - MVT pattern , [MVT Django](https://cupofcode.blog/wp-content/uploads/2021/04/cupofcode_blog_django_MVT_diagram.png)
+    - Model - DB
+        - for each model, you need to migrate. Add add
+    - View - business logic
+    - Template - HTML
+- Djando fieldstypes.html
+- Write a Student class in models.py, add the djapp in burls.
+    - python manage.py makemigrations 
+    - python manage.py runserver 
+        - `http://127.0.0.1:8000/admin/login/?next=/admin/` or localhost:8000
+
 </details>
